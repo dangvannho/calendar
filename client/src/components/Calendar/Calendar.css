@@ -1,0 +1,23 @@
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.fc {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fc-button {
+  border-radius: 5px !important;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+  display: none;
+}
+
+.fc-timegrid-event .fc-event-main {
+  overflow: hidden;
+}
+
+/* BookingCalendar.css */
